@@ -1,6 +1,6 @@
 <%-include ('header') %>
   <form method="GET" action="/cotacao">
-    <p><input name="cotacao" placeholder="Cotação da moeda"></p>
+    <p><input name="cotacao" placeholder="Cotação da moeda" value="<%= cotacao %>"></p>
     <p><input name="quantidade" placeholder="Quantidade a ser convertida"></p>
     <p><button>Converter</button></p>
     <%-include ('footer')%>
