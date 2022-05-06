@@ -1,8 +1,9 @@
 # Convert_My_Money
-Projeto utilizando javascript para a realização de conversão de moeda a partir de uma cotação e quantidade a ser convertida.
+Projeto em nodeJS para a realização de conversão de moeda a partir de uma cotação captada com a API do BCB e uma  quantidade inserida pelo usuário.
 
 Techs:
-- Javascript
+- NODEJS
+- EXPRESS
 - CSS
 - EJS
 
